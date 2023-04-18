@@ -30,7 +30,7 @@ export default function gomiYashiki() {
 
         <h3 className="main_title">サービス一覧</h3>
         <h4 className="service_title">ゴミ屋敷の片付け<StaticImage  src="../../images/service/service_icon02.png" className="icon_img" alt="" /></h4>
-        <div><StaticImage  src="../../images/service/gomi01.jpg" width={765} height={381} alt="" /></div>
+        <StaticImage  src="../../images/service/gomi01.jpg" width={765} height={381} alt="" />
         <p>精神的に疲れた。仕事に追われ時間がない。<br />
           などの理由で、後で片づけよう。がいつの間にか自分一人ではどうにもならない状況！！<br />
           又、「ゴミ」という言葉に対する概念も人それぞれ違います。もう何年も使用せず放置して ある物に対して ゴミだと考える方がいれば、いつか使う時の為に取り置きしていて必需品と考える方もいます。どちらの考えも間違えではないと思います。<br />

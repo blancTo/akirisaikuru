@@ -32,7 +32,7 @@ export default function ihinSeiri() {
         
         <h4 className="service_title">遺品整理・仏壇の引取り<StaticImage src="../../images/service/service_icon03.png" className="icon_img" alt="" /></h4>
 
-        <div><StaticImage src="../../images/service/ihin01.jpg" width={765} height={381} alt="遺品整理とは、大切な人が残していった思い出の品を整理、処分する事です。" /></div>
+        <StaticImage src="../../images/service/ihin01.jpg" width={765} height={381} alt="遺品整理とは、大切な人が残していった思い出の品を整理、処分する事です。" />
         <p>ご依頼をいただくご遺族の方にはそれぞれの事情がございます。<br />
           また、突然のことで、何から手をつけていいか分からない事ばかりで困惑するご遺族の方が多いのも確かです。<br />
           安芸リサイクルでは、遺品整理のプロアドバイザーが故人の想いを大切にし、ご遺族の気持を汲み取り、「こころ」で遺品の分別の お手伝い・回収・処理を行います。</p>
@@ -51,7 +51,7 @@ export default function ihinSeiri() {
           <p>などなど、上記の事はすべて対応可能です。是非ご連絡ください。</p>
         </div>
 
-        <div><StaticImage src="../../images/service/ihin03.jpg" width={765} height={381} alt="生前整理を通じて身軽でポジティブなセカンドライフを迎えましょう！" /></div>
+        <StaticImage src="../../images/service/ihin03.jpg" width={765} height={381} alt="生前整理を通じて身軽でポジティブなセカンドライフを迎えましょう！" />
 
         <p>生前整理とは言わば人生の衣替えです。<br />
           不要なもの、お気に入りでないもの、様々な不便としがらみをスッキリ整理することにより新たなライフスタイルを心地よくそして安心して過ごすことができます。<br />

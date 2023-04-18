@@ -52,9 +52,11 @@ export default function service() {
                 <div className="service_h">遺品整理・仏壇の引取り<StaticImage src="../../images/service/service_icon03.png" className="icon_img" alt="" /></div>
                 <div className="service_flow_inner">
                     <div className="service_flow_img"><StaticImage src="../../images/service/service003_2.jpg" width={180} className="b_radi5" alt="" /></div>
-                    <div className="service_flow_txt"><p>人様の大切な遺品を定年に整理させて頂きます。<br />
-                    不用品の処分、清掃もお任せください！</p>
-                    <p><Link to="/service/ihin_seiri/" className="bt01">詳しくはこちら<FontAwesomeIcon icon={faCircleChevronRight} /></Link></p></div>
+                    <div className="service_flow_txt">
+                      <p>人様の大切な遺品を定年に整理させて頂きます。<br />
+                      不用品の処分、清掃もお任せください！</p>
+                      <p><Link to="/service/ihin_seiri/" className="bt01">詳しくはこちら<FontAwesomeIcon icon={faCircleChevronRight} /></Link></p>
+                    </div>
                 </div>
             </div>
 
@@ -62,17 +64,23 @@ export default function service() {
                 <div className="service_h">不用品回収・粗大ゴミ処分<StaticImage src="../../images/service/service_icon04.png" alt="" className="icon_img" /></div>
                 <div className="service_flow_inner">
                     <div className="service_flow_img"><StaticImage src="../../images/service/service004_2.jpg" width={180} alt="" className="b_radi5" /></div>
-                    <div className="service_flow_txt"><p>ご家庭やオフィスにある要らなくなったものを即日回収いたします！</p>
-                    <p><Link to="/service/hikkoshi_gomi/" className="bt01">詳しくはこちら<FontAwesomeIcon icon={faCircleChevronRight} /></Link></p></div>
+                    <div className="service_flow_txt">
+                      <p>ご家庭やオフィスにある要らなくなったものを即日回収いたします！</p>
+                      <p><Link to="/service/hikkoshi_gomi/" className="bt01">詳しくはこちら<FontAwesomeIcon icon={faCircleChevronRight} /></Link></p>
+                    </div>
                 </div>
             </div>
 
             <div className="service_flow">
                 <div className="service_h">ハウスクリーニング</div>
                 <div className="service_flow_inner">
-                    <div className="service_flow_img"><StaticImage src="../../images/service/service005.jpg" width={180} height={118} alt="" /></div>
-                    <div className="service_flow_txt"><p>キッチン・浴室などのお掃除から、お引越し前後など幅広い範囲で対応可能です！</p>
-                    <p><Link to="/service/house_cleaning/" className="bt01">詳しくはこちら<FontAwesomeIcon icon={faCircleChevronRight} /></Link></p></div>
+                    <div className="service_flow_img">
+                      <StaticImage src="../../images/service/service005.jpg" width={180} height={118} alt="" />
+                    </div>
+                    <div className="service_flow_txt">
+                      <p>キッチン・浴室などのお掃除から、お引越し前後など幅広い範囲で対応可能です！</p>
+                      <p><Link to="/service/house_cleaning/" className="bt01">詳しくはこちら<FontAwesomeIcon icon={faCircleChevronRight} /></Link></p>
+                    </div>
                 </div>
             </div>
 

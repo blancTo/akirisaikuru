@@ -21,12 +21,12 @@ export default function Mainimage() {
         <div id="mainimage-inner">
           <div className="pc">
             
-            <div><StaticImage src="../images/txt01.png" alt="各種クレジットカード対応" /></div>
+            <StaticImage src="../images/txt01.png" alt="各種クレジットカード対応" />
             
             <h2 className="center"><StaticImage src="../images/top_medal.png" alt="お客様満足度97％　安心と実績の20年　女性スタッフ同行可能。" /></h2>
             <div className="center"><StaticImage src="../images/txt02.png" alt="詳しくはお問合せください" /></div>
             <h2 className="center"><StaticImage src="../images/txt03.png" alt="不用品回収なら当日予約OKの安芸リサイクルにお任せください！" /></h2>
-            <div><StaticImage src="../images/txt04.png" alt="片付け整理人 他社だと必ず発生する基本料金や出張費用が0円" /></div>
+            <StaticImage src="../images/txt04.png" alt="片付け整理人 他社だと必ず発生する基本料金や出張費用が0円" />
           </div>
           <div className="smp"><StaticImage src="../images/mainimage_smp.jpg" alt="片付け整理人 他社だと必ず発生する基本料金や出張費用が0円" /></div>
         </div>

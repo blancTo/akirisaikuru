@@ -49,7 +49,7 @@ export default function Home() {
               <li><StaticImage src="../images/pack_price_list06.png" alt="エアコン取り外し" /></li>
             </ul>
 
-            <p>安芸リサイクルでは、他社では別料金になる搬出作業費・お掃除作業費・スタッフ追加料金・車両費・出張費・エアコン取り外し費用が全て込みの料金となっております。<span class="dark-red b_900">お見積り後の追加料金も一切ございません。</span><br />
+            <p>安芸リサイクルでは、他社では別料金になる搬出作業費・お掃除作業費・スタッフ追加料金・車両費・出張費・エアコン取り外し費用が全て込みの料金となっております。<span className="dark-red b_900">お見積り後の追加料金も一切ございません。</span><br />
             お客様の状況にあった最適なプランをご提案させて頂きます！</p>
 
             <PlanList />
@@ -97,13 +97,9 @@ export default function Home() {
               <div id="main_l">
                 <h3 className="title01">粗大ゴミ・不用品回収（ゴミ屋敷お片付け）までの流れ</h3>
 
-                <div className="flex-center top_kaisyu_flow">
-                  <div>
-                    <StaticImage src="../images/top_flow01_1.png" alt="受付→予約→お見積もり" />
-                  </div>
-                  <div>
+                <div className="flex-center top_kaisyu_flow">                  
+                    <StaticImage src="../images/top_flow01_1.png" alt="受付→予約→お見積もり" />                  
                     <StaticImage src="../images/top_flow01_2.png" alt="回収作業→お支払い" />
-                  </div>
                 </div>
 
                 <p className="center"><Link to="/flow/" className="bt01">詳しくはこちら<FontAwesomeIcon icon={faCircleChevronRight} /></Link></p>
@@ -134,7 +130,7 @@ export default function Home() {
 
                 </div>
               
-                <div><a href="tel:0120-28-3374"><StaticImage src="../images/free_dial_bt_s.png" alt="タップして電話かけてね！！tel:0120-28-3374" /></a></div>
+                <a href="tel:0120-28-3374"><StaticImage src="../images/free_dial_bt_s.png" alt="タップして電話かけてね！！tel:0120-28-3374" /></a>
 
                 <h3 className="title01 mt60">対応エリア一覧</h3>
 
@@ -143,7 +139,7 @@ export default function Home() {
                 <TopVoice />
 
                 <p className="center"><Link to="/voice/" className="bt01">詳しくはこちら<FontAwesomeIcon icon={faCircleChevronRight} /></Link></p>
-                <div><a href="tel:0120-28-3374"><StaticImage src="../images/free_dial_bt_s.png" alt="タップして電話かけてね！！tel:0120-28-3374" /></a></div>
+                <a href="tel:0120-28-3374"><StaticImage src="../images/free_dial_bt_s.png" alt="タップして電話かけてね！！tel:0120-28-3374" /></a>
 
               </div>
 

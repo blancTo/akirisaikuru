@@ -31,7 +31,7 @@ export default function hikkoshiGomi() {
 
         <h4 className="service_title">引越しに伴う粗大ゴミ回収<StaticImage  src="../../images/service/service_icon04.png" className="icon_img" alt="" /></h4>
 
-        <div><StaticImage  src="../../images/service/hikkoshi01.jpg" width={765} height={381} alt="" /></div>
+        <StaticImage  src="../../images/service/hikkoshi01.jpg" width={765} height={381} alt="" />
         <p>引越しの際に出る粗大ゴミや、不用品の処分を自分でやるのはとても労力がかかります。<br />
         弊社では、お得なパック料金を選ぶ事により、様々な粗大ゴミの処分や不用品の回収にも丁寧に対応いたします。<br />
         引越しのスケジュールに合わせて作業日を調整いたしますので、ご連絡の際は引越し日の日程にゆとりをもってご連絡下さい。</p>
