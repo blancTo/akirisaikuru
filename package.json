@@ -13,7 +13,21 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.4.0",
+    "@fortawesome/free-solid-svg-icons": "^6.4.0",
+    "@fortawesome/react-fontawesome": "^0.2.0",
     "gatsby": "^5.8.1",
+    "gatsby-plugin-anchor-links": "^1.2.1",
+    "gatsby-plugin-canonical-urls": "^5.9.0",
+    "gatsby-plugin-image": "^3.9.0",
+    "gatsby-plugin-robots-txt": "^1.8.0",
+    "gatsby-plugin-sass": "^6.9.0",
+    "gatsby-plugin-sharp": "^5.9.0",
+    "gatsby-plugin-sitemap": "^6.9.0",
+    "gatsby-remark-responsive-iframe": "^6.9.0",
+    "gatsby-source-filesystem": "^5.9.0",
+    "gatsby-transformer-remark": "^6.9.0",
+    "gatsby-transformer-sharp": "^5.9.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
