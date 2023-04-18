@@ -83,7 +83,7 @@ export default function Home() {
               広島で一番安いリサイクルショップ、是非一度お問い合わせください。
             </div>
 
-            <div className="bn_list"><Link to="service/house-cleaning/"><StaticImage src="../images/house-cleaning-bn.png" alt="ハウスクリーニング リフォーム担当者直通" /></Link></div>
+            <div className="bn_list"><Link to="/service/house_cleaning/"><StaticImage src="../images/house-cleaning-bn.png" alt="ハウスクリーニング リフォーム担当者直通" /></Link></div>
 
             <BnList />
           </div>
@@ -106,7 +106,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <p className="center"><a href="/flow/" className="bt01">詳しくはこちら<FontAwesomeIcon icon={faCircleChevronRight} /></a></p>
+                <p className="center"><Link to="/flow/" className="bt01">詳しくはこちら<FontAwesomeIcon icon={faCircleChevronRight} /></Link></p>
 
                 <h3 className="title01">こんな粗大ゴミや不用品を何とかしたい！</h3>
 
@@ -142,7 +142,7 @@ export default function Home() {
 
                 <TopVoice />
 
-                <p className="center"><a href="/voice/" className="bt01">詳しくはこちら<FontAwesomeIcon icon={faCircleChevronRight} /></a></p>
+                <p className="center"><Link to="/voice/" className="bt01">詳しくはこちら<FontAwesomeIcon icon={faCircleChevronRight} /></Link></p>
                 <div><a href="tel:0120-28-3374"><StaticImage src="../images/free_dial_bt_s.png" alt="タップして電話かけてね！！tel:0120-28-3374" /></a></div>
 
               </div>

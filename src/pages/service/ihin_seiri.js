@@ -65,10 +65,10 @@ export default function ihinSeiri() {
           <h4 className="service_list_title">こんな方はお気軽にご相談ください</h4>
           <ul className="check_list">
             <li><FontAwesomeIcon icon={faCheck} />物が多すぎて生活が不便。</li>
-              <li><FontAwesomeIcon icon={faCheck} />子供や孫が泊まりに来るけどスペースがない。</li>
-              <li><FontAwesomeIcon icon={faCheck} />親族の遺品整理を経験し、自分の時は家族に負担をかけたくない。</li>
-              <li><FontAwesomeIcon icon={faCheck} />最新家電、骨董品、調度品、アンティーク家具など買取り致します。<br />
-                （買取りできないものもございます。）</li>
+            <li><FontAwesomeIcon icon={faCheck} />子供や孫が泊まりに来るけどスペースがない。</li>
+            <li><FontAwesomeIcon icon={faCheck} />親族の遺品整理を経験し、自分の時は家族に負担をかけたくない。</li>
+            <li><FontAwesomeIcon icon={faCheck} />最新家電、骨董品、調度品、アンティーク家具など買取り致します。<br />
+              （買取りできないものもございます。）</li>
           </ul>
           <p>などなど、上記の事はすべて対応可能です。是非ご連絡ください。</p>
         </div>

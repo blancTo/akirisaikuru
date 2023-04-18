@@ -31,11 +31,11 @@ const MainR = () => {
         <div className='side_bn'><Link to="/area/"><StaticImage src="../images/side/side02.png" alt="対応エリア" /></Link></div>
         <div className='side_bn'><Link to="/faq/"><StaticImage src="../images/side/side03.png" alt="よくあるご質問" /></Link></div>
         <div className='side_bn'><Link to="/flow/"><StaticImage src="../images/side/side04.png" alt="ご利用までの流れ" /></Link></div>
-        <div className='side_bn'><Link to="https://aki-risaikuru.com/blog/"><StaticImage src="../images/side/side05.png" alt="安芸リサイクルブログ" /></Link></div>
+        <div className='side_bn'><a href="https://aki-risaikuru.com/blog/"><StaticImage src="../images/side/side05.png" alt="安芸リサイクルブログ" /></a></div>
         <div className='side_bn'><StaticImage src="../images/side/rakuten_01.png" alt="" /></div>
         <div className='side_bn'><StaticImage src="../images/side/ihin_seirisi_bn_2.png" alt="遺品整理士" /></div>
         <div className='side_bn'><StaticImage src="../images/side/tokusyu_seisou_bn.png" alt="当事業所には事件現場特殊清掃士の有資格者がいます。" /></div>
-        <div className='side_bn'><Link to="http://www.is-mind.org/" target="_blank"><StaticImage src="../images/side/side_04.jpg" alt="遺品整理士認定協会" /></Link></div>
+        <div className='side_bn'><a href="http://www.is-mind.org/" target="_blank" rel="noopener noreferrer"><StaticImage src="../images/side/side_04.jpg" alt="遺品整理士認定協会" /></a></div>
         <div className='side_bn'><StaticImage src="../images/side/side_pic01.jpg" alt="" /></div>
         <p className="center">遺品整理管理基準適合会員<br />
           に認定されました。</p>
