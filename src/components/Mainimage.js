@@ -7,8 +7,8 @@ export default function Mainimage() {
     <>
       <ul className="area_list pc">
         <li>
-          <Link to ="/"><StaticImage src="../images/area_01.png" alt="広島市" /></Link>
-          </li>
+          <Link to="/"><StaticImage src="../images/area_01.png" alt="広島市" /></Link>
+        </li>
         <li><StaticImage src="../images/area_02.png" alt="安芸郡" /></li>
         <li><StaticImage src="../images/area_03.png" alt="東広島市" /></li>
         <li><StaticImage src="../images/area_04.png" alt="呉市" /></li>
