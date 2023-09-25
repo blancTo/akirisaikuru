@@ -16,6 +16,8 @@
     "@fortawesome/fontawesome-svg-core": "^6.4.2",
     "@fortawesome/free-solid-svg-icons": "^6.4.2",
     "@fortawesome/react-fontawesome": "^0.2.0",
+    "date-fns-tz": "^2.0.0",
+    "dayjs": "^1.11.10",
     "gatsby": "^5.12.4",
     "gatsby-plugin-anchor-links": "^1.2.1",
     "gatsby-plugin-canonical-urls": "^5.12.0",
