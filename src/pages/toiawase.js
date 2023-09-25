@@ -1,14 +1,11 @@
 import React from "react";
 import Seo from "../components/Seo";
-import BreadCrumbParent from "../components/BreadCrumbParent";
+import BreadCrumb from "../components/BreadCrumb";
 import Layout from "../components/Layout";
-import { Link } from "gatsby";
 
 const pagemeta = {
-  subTitle: `無料見積り・お問い合わせありがとうございました。`,
-  slug: `contact_thanks`,
-  parentTitle: `お問い合わせ`,
-  parentSlug: `contact`,
+  subTitle: `無料見積り・お問い合わせ`,
+  slug: `toiawase`,
 };
 
 export const Head = () => (
@@ -16,7 +13,7 @@ export const Head = () => (
     <body id="pagetop" />
     <Seo
       title={pagemeta.subTitle}
-      description="お問い合わせ完了｜広島・東広島の不用品回収・買取・引越しゴミ・家財整理・ゴミ屋敷・遺品整理 安芸リサイクル"
+      description="お問い合わせ｜広島・東広島の不用品回収・買取・引越しゴミ・家財整理・ゴミ屋敷・遺品整理 安芸リサイクル"
     />
     <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
   </>
@@ -26,12 +23,7 @@ const toiawase = () => {
   return (
     <>
       <Layout>
-        <BreadCrumbParent
-          title={pagemeta.subTitle}
-          slug={pagemeta.slug}
-          parentTitle={pagemeta.parentTitle}
-          parentSlug={pagemeta.parentSlug}
-        />
+        <BreadCrumb title={pagemeta.subTitle} slug={pagemeta.slug} />
 
         <h3 className="main_title">無料見積り・お問い合わせ</h3>
 
@@ -502,35 +494,35 @@ const jsonLd = {
     },
     {
       "@type": "Person",
-      "@id": "https://aki-risaikuru.com/contact_thanks/#person",
+      "@id": "https://aki-risaikuru.com/toawase/#person",
     },
     {
       "@type": "WebPage",
-      "@id": "https://aki-risaikuru.com/contact_thanks/#webpage",
-      url: "https://aki-risaikuru.com/contact_thanks/",
+      "@id": "https://aki-risaikuru.com/toawase/#webpage",
+      url: "https://aki-risaikuru.com/toawase/",
       name: "広島不用品回収・東広島不用品回収・引越しゴミ・家財整理・ゴミ屋敷・遺品整理｜安芸リサイクル｜無料見積り・お問い合わせありがとうございました。",
       description:
         "広島の不用品回収・引越しゴミ・お片付け・粗大ゴミ・お家丸ごと・遺品整理・秘密厳守・明朗会計・安心の定額パック・追加料金なし・買取から処分まで・年中無休・損害保険対応・クレジットカード対応・見積無料・遠方地域対応の安芸リサイクル｜無料見積り・お問い合わせありがとうございました。",
       inLanguage: "ja",
       isPartOf: {
-        "@id": "https://aki-risaikuru.com/contact_thanks/#website",
+        "@id": "https://aki-risaikuru.com/toawase/#website",
       },
       breadcrumb: {
-        "@id": "https://aki-risaikuru.com/contact_thanks/#breadcrumblist",
+        "@id": "https://aki-risaikuru.com/toawase/#breadcrumblist",
       },
-      datePublished: "2022-12-26T01:06:53+09:00",
-      dateModified: "2022-12-27T04:27:08+09:00",
+      datePublished: "2023-9-26T01:06:53+09:00",
+      dateModified: "2023-9-26T04:27:08+09:00",
     },
     {
       "@type": "WebSite",
-      "@id": "https://aki-risaikuru.com/contact_thanks/#website",
-      url: "https://aki-risaikuru.com/contact_thanks/",
+      "@id": "https://aki-risaikuru.com/toawase/#website",
+      url: "https://aki-risaikuru.com/toawase/",
       name: "広島不用品回収・東広島不用品回収・引越しゴミ・家財整理・ゴミ屋敷・遺品整理｜安芸リサイクル｜無料見積り・お問い合わせありがとうございました。",
       description:
         "広島の不用品回収・引越しゴミ・お片付け・粗大ゴミ・お家丸ごと・遺品整理・秘密厳守・明朗会計・安心の定額パック・追加料金なし・買取から処分まで・年中無休・損害保険対応・クレジットカード対応・見積無料・遠方地域対応の安芸リサイクル｜無料見積り・お問い合わせありがとうございました。",
       inLanguage: "ja",
       publisher: {
-        "@id": "https://aki-risaikuru.com/contact_thanks/#person",
+        "@id": "https://aki-risaikuru.com/toawase/#person",
       },
     },
   ],
