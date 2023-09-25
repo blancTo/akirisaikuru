@@ -32,6 +32,7 @@ const CategoryPage = ({ data, pageContext }) => {
           category={data.allMicrocmsPosts.edges[0].node.category.id}
           catName={data.allMicrocmsPosts.edges[0].node.category.name}
         />
+
         <h3 className="main_title">ブログ</h3>
         {posts.map(({ node }) => (
           <div className="column_box" key={node.postsId}>
