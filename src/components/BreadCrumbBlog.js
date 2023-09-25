@@ -25,6 +25,18 @@ const BreadCrumbBlog = (props) => {
           </Link>
           <meta itemprop="position" content="1" />
         </li>
+        <li
+          className="breadcrumb__item"
+          itemprop="itemListElement"
+          itemscope
+          itemtype="https://schema.org/ListItem"
+        >
+          <FontAwesomeIcon icon={faAngleRight} />
+          <Link to="/blog/" itemprop="item">
+            <span itemprop="name">ブログ</span>
+          </Link>
+          <meta itemprop="position" content="2" />
+        </li>
         {props.category && (
           <li
             className="breadcrumb__item"
@@ -36,7 +48,7 @@ const BreadCrumbBlog = (props) => {
             <Link to={`/category/${props.category}/`} itemprop="item">
               <span>{props.catName}</span>
             </Link>
-            <meta itemprop="position" content="2" />
+            <meta itemprop="position" content="3" />
           </li>
         )}
         {props.post && ( // props.postが存在する場合のみ以下の<li>要素を表示
@@ -50,7 +62,7 @@ const BreadCrumbBlog = (props) => {
             <Link to={`/posts/${props.post}/`} itemprop="item">
               <span>{props.title}</span>
             </Link>
-            <meta itemprop="position" content="3" />
+            <meta itemprop="position" content="4" />
           </li>
         )}
       </ul>
