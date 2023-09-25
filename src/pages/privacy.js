@@ -63,7 +63,7 @@ export default function privacy() {
         <h4 className="title02">お問合せ対応窓口</h4>
         <p>
           お客様がご提供された個人情報についてご不明な点につきましては、個人情報をご提供頂く特定のウェブページに記載の
-          <Link to="/contact/">お問合せ窓口</Link>までお問合せ下さい。
+          <Link to="/toiawase/">お問合せ窓口</Link>までお問合せ下さい。
         </p>
       </Layout>
     </>

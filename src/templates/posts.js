@@ -9,6 +9,9 @@ import "dayjs/locale/ja";
 import utc from "dayjs/plugin/utc";
 import timezone from "dayjs/plugin/timezone";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleChevronLeft } from "@fortawesome/free-solid-svg-icons";
+
 dayjs.extend(utc);
 dayjs.extend(timezone);
 dayjs.tz.setDefault("Asia/Tokyo");
@@ -67,8 +70,9 @@ const PostPage = ({ data }) => {
           <p class="center mb40">
             <a
               href={`/category/${microcmsPosts.category.id}/`}
-              className="bt01"
+              className="bt_blog"
             >
+              <FontAwesomeIcon icon={faCircleChevronLeft} />
               記事一覧に戻る
             </a>
           </p>

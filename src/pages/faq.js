@@ -24,7 +24,7 @@ export default function faq() {
         <div className="faq_bg_a">
           <p>
             まずは、フリーダイヤル（0120-28-3374）または、
-            <Link to="/contact/">お問い合わせフォーム</Link>
+            <Link to="/toiawase/">お問い合わせフォーム</Link>
             よりご連絡ください。引越し日、買取商品の種類・数・大きさ・場所などをご連絡ください。
             <br />
             (1)希望日時に担当者が無料で出張お見積もりにお伺いいたします。現地にて商品を確認させていただき、買取できる商品、無料引取できる商品、有償処分になる商品に分類させていただき、１点ずつ丁寧に査定いたします。
@@ -40,7 +40,7 @@ export default function faq() {
         <div className="faq_bg_a">
           <p>
             家財処分できます。まずは、フリーダイヤル（0120-28-3374）または、
-            <Link to="/contact/">お問い合わせフォーム</Link>
+            <Link to="/toiawase/">お問い合わせフォーム</Link>
             よりご連絡ください。現地にて下見・お見積もりする時、作業当日には、お立会いをお願いいたします。
           </p>
         </div>
@@ -48,7 +48,7 @@ export default function faq() {
         <div className="faq_bg_a">
           <p>
             空き家でも家財処分できます。まずは、フリーダイヤル（0120-28-3374）または、
-            <Link to="/contact/">お問い合わせフォーム</Link>
+            <Link to="/toiawase/">お問い合わせフォーム</Link>
             よりご連絡ください。現地にて下見・お見積もりする時、作業完了日には、お立会いをお願いいたします。空き家での作業となるため、作業期間中は鍵をお預かりいたします。（鍵の返却は作業完了日となります。）
           </p>
         </div>
@@ -85,7 +85,7 @@ export default function faq() {
         <div className="faq_bg_a">
           <p>
             お気軽にフリーダイヤル（0120-28-3374）または、
-            <Link to="/contact/">お問い合わせフォーム</Link>
+            <Link to="/toiawase/">お問い合わせフォーム</Link>
             よりご連絡ください。無料見積もりいたします。
           </p>
         </div>

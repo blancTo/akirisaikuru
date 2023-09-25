@@ -39,7 +39,7 @@ const MainR = () => {
         </p>
 
         <div className="center">
-          <Link to="/contact/" className="bt01">
+          <Link to="/toiawase/" className="bt01">
             オンライン無料見積もり
             <FontAwesomeIcon icon={faCircleChevronRight} />
           </Link>

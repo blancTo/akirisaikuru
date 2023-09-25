@@ -1351,7 +1351,7 @@ footer {
   font-size: 120%;
   border: solid 1px #0068b7;
   text-decoration: none;
-  padding: 10px 20px;
+  padding: 10px 40px 10px 20px;
   font-family: "M PLUS 2", sans-serif;
   position: relative;
   transition: 0.3s;
@@ -1406,6 +1406,42 @@ footer {
     color: #9edd74;
     .fa-angle-right {
       color: #f9c866;
+    }
+  }
+}
+
+.bt_blog {
+  display: inline-block;
+  border-radius: 10px;
+  background: #0068b7;
+  color: #fff;
+  text-align: center;
+  font-weight: 700;
+  font-size: 120%;
+  border: solid 1px #0068b7;
+  text-decoration: none;
+  padding: 10px 20px 10px 40px;
+  font-family: "M PLUS 2", sans-serif;
+  position: relative;
+  transition: 0.3s;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
+  @media screen and (max-width: 768px) {
+    display: block;
+    font-size: 100%;
+    padding: 3%;
+  }
+
+  &:hover {
+    text-decoration: none;
+    border: solid 1px #0068b7;
+    background: #fff;
+    color: #0068b7;
+    text-shadow: 0px 0px 0 rgba(0, 0, 0, 0.6);
+  }
+  .fa-circle-chevron-left {
+    margin-right: 10px;
+    @media screen and (max-width: 768px) {
+      display: none;
     }
   }
 }
@@ -1597,6 +1633,34 @@ footer {
     border-right: 1px solid #e3e3e3;
     border-bottom: 1px solid #e3e3e3;
     width: 70%;
+  }
+}
+
+.form {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 40px auto;
+  padding: 0;
+  border-top: 1px dashed #ccc;
+
+  th {
+    background: #f5f5f5;
+    color: #000;
+    font-size: 14px;
+    text-align: center;
+    font-weight: normal;
+    vertical-align: top;
+    padding: 15px 15px;
+    border-bottom: 1px dashed #ccc;
+    width: 30%;
+  }
+  td {
+    background: #fff;
+    color: #000;
+    font-size: 14px;
+    padding: 15px 15px;
+    text-align: left;
+    border-bottom: 1px dashed #ccc;
   }
 }
 
