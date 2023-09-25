@@ -33,7 +33,7 @@ const BreadCrumbBlog = (props) => {
             itemtype="https://schema.org/ListItem"
           >
             <FontAwesomeIcon icon={faAngleRight} />
-            <Link to={`/blog/${props.category}/`} itemprop="item">
+            <Link to={`/category/${props.category}/`} itemprop="item">
               <span>{props.catName}</span>
             </Link>
             <meta itemprop="position" content="2" />
