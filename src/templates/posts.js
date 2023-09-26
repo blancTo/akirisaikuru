@@ -97,6 +97,7 @@ export const query = graphql`
         name
       }
       content
+      date
       eyecatch {
         url
       }
