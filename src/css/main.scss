@@ -1738,6 +1738,23 @@ footer {
   line-height: 2;
 }
 
+.pager {
+  padding: 20px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  a {
+    display: inline-block;
+    padding: 7px 13px;
+    border-radius: 10px;
+    color: #5ec618;
+    &.current {
+      background-color: #5ec618;
+      color: #fff;
+    }
+  }
+}
+
 .mb40 {
   margin-bottom: 40px;
 }
