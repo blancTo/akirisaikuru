@@ -8,17 +8,6 @@ const pagemeta = {
   slug: `toiawase`,
 };
 
-export const Head = () => (
-  <>
-    <body id="pagetop" />
-    <Seo
-      title={pagemeta.subTitle}
-      description="お問い合わせ｜広島・東広島の不用品回収・買取・引越しゴミ・家財整理・ゴミ屋敷・遺品整理 安芸リサイクル"
-    />
-    <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
-  </>
-);
-
 const toiawase = () => {
   return (
     <>
@@ -270,12 +259,6 @@ const toiawase = () => {
                   ご依頼場所<span className="pink bold">※</span>
                 </th>
                 <td>
-                  <input
-                    type="hidden"
-                    name="ご依頼場所"
-                    data-unjoin="〒+郵便番号+\n+都道府県+市区町村+丁目番地"
-                    defaultValue
-                  />
                   〒
                   <input
                     type="text"
@@ -342,7 +325,7 @@ const toiawase = () => {
                       </select>
                     </li>
                     <li>
-                      <span>市区町村</span>{" "}
+                      <span>市区町村</span>　
                       <input
                         type="text"
                         name="市区町村"
@@ -351,7 +334,7 @@ const toiawase = () => {
                       />
                     </li>
                     <li>
-                      <span>丁目番地</span>{" "}
+                      <span>丁目番地</span>　
                       <input type="text" name="丁目番地" size={50} />
                     </li>
                   </ol>
@@ -368,7 +351,8 @@ const toiawase = () => {
                     data-kana="セイ"
                     size={15}
                     required="required"
-                  />{" "}
+                  />
+                  　
                   <input
                     type="text"
                     name="名"
@@ -545,5 +529,16 @@ const jsonLd = {
     },
   ],
 };
+
+export const Head = () => (
+  <>
+    <body id="pagetop" />
+    <Seo
+      title={pagemeta.subTitle}
+      description="お問い合わせ｜広島・東広島の不用品回収・買取・引越しゴミ・家財整理・ゴミ屋敷・遺品整理 安芸リサイクル"
+    />
+    <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+  </>
+);
 
 export default toiawase;
