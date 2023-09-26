@@ -87,6 +87,7 @@ input {
     background-color: #f5f5f5;
     padding: 10px;
     box-sizing: border-box;
+    margin: 10px;
   }
 }
 
@@ -104,6 +105,8 @@ select {
   background-color: #f5f5f5;
   border-radius: 3px;
   box-sizing: border-box;
+  margin: 10px;
+  padding: 10px;
 }
 
 textarea {
@@ -1274,6 +1277,9 @@ footer {
   margin: 3% 0;
 }
 
+.w400 {
+  width: 400px;
+}
 .w25p {
   width: 25%;
 }
@@ -1646,7 +1652,6 @@ footer {
   th {
     background: #f5f5f5;
     color: #000;
-    font-size: 14px;
     text-align: center;
     font-weight: normal;
     vertical-align: top;
@@ -1657,10 +1662,34 @@ footer {
   td {
     background: #fff;
     color: #000;
-    font-size: 14px;
     padding: 15px 15px;
     text-align: left;
     border-bottom: 1px dashed #ccc;
+  }
+}
+
+.form-radio {
+  display: inline-block;
+  padding: 5px;
+  margin-right: 10px;
+  cursor: pointer;
+  span {
+    padding-left: 10px;
+  }
+}
+
+.bt_form {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #bedc81;
+  background-color: #bedc81;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+  &:hover {
+    background-color: #5ec618;
+    border: 2px solid #5ec618;
   }
 }
 
