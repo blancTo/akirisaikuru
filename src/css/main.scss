@@ -360,7 +360,7 @@ header {
           span {
             display: inline-block;
             padding: 2px 8px;
-            background-color: #0295da;
+            background-color: #027cb6;
             border-radius: 10px;
             color: #fff;
             margin-left: 10px;
@@ -587,7 +587,7 @@ footer {
       #foot_area {
         background-color: #fff;
         padding: 5px 10px;
-        color: #5ec618;
+        color: #40850f;
         width: 60%;
         margin: 15px 0;
         border-radius: 5px;
@@ -795,7 +795,7 @@ footer {
       width: calc(100% / 2);
     }
     .plan_box_inner {
-      background-color: #2ea7e0;
+      background-color: #00599e;
       padding: 10px;
       border-radius: 10px;
       color: #fff;
@@ -1004,7 +1004,7 @@ footer {
 }
 
 .recycle_txt {
-  background-color: #fc9b18;
+  background-color: #e07a00;
   color: #fff;
   margin: auto;
   padding: 10px;
@@ -1063,10 +1063,10 @@ footer {
         padding: 3px 10px;
       }
       &:first-child {
-        background-color: #f5a300;
+        background-color: #e07a00;
       }
       &:last-child {
-        background-color: #22ac38;
+        background-color: #238f23;
       }
     }
   }
@@ -1168,10 +1168,10 @@ footer {
       color: #fff;
     }
     .before_title {
-      background-color: #87d2f5;
+      background-color: #0058b3;
     }
     .after_title {
-      background-color: #f790b2;
+      background-color: #df2a61;
     }
     .top_flow_inner {
       padding: 10px;
@@ -1241,14 +1241,14 @@ footer {
 .voice_title01 {
   text-align: center;
   background-color: #dff3ff;
-  border-top: 2px solid #3d7ea6;
+  border-top: 2px solid #377195;
   padding: 10px;
   margin-top: 0;
-  color: #3d7ea6;
+  color: #377195;
   font-weight: bold;
 }
 .voice_title02 {
-  background-color: #5eacdd;
+  background-color: #267cb0;
   border-radius: 5px;
   padding: 10px;
   font-size: 130%;
@@ -1389,11 +1389,11 @@ footer {
 .bt02 {
   display: inline-block;
   border-radius: 50px;
-  color: #5ec618;
+  color: #238f23;
   text-align: center;
   font-weight: 700;
   font-size: 120%;
-  border: solid 2px #5ec618;
+  border: solid 3px #238f23;
   text-decoration: none;
   padding: 5px 20px;
   font-family: "Noto Sans JP", sans-serif;
@@ -1407,7 +1407,7 @@ footer {
   }
   &:hover {
     text-decoration: none;
-    border: solid 2px #9edd74;
+    border: solid 3px #9edd74;
     background: #fff;
     color: #9edd74;
     .fa-angle-right {
@@ -1464,7 +1464,7 @@ footer {
   }
 
   border-radius: 20px;
-  background: #0068b7;
+  background: #00599e;
   color: #fff;
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.6);
   text-align: center;
