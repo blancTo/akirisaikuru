@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-
+import { StaticImage } from "gatsby-plugin-image";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleChevronRight } from "@fortawesome/free-solid-svg-icons";
 
@@ -16,12 +16,17 @@ const Header = () => {
               </h1>
               <div className="h_logo">
                 <Link to="/">
-                  <img src="../images/logo.png" alt="安芸リサイクル" />
+                  <StaticImage
+                    src="../images/logo.png"
+                    width={265}
+                    height={48}
+                    alt="安芸リサイクル"
+                  />
                 </Link>
               </div>
               <div className="h_tool">
                 <div className="h_tel">
-                  <a href="tel:0120-28-3374">
+                  <a href="tel:0120-28-3374" title="電話をかける">
                     <span className="pc">
                       <svg
                         width={40}
@@ -49,7 +54,7 @@ const Header = () => {
                 </div>
                 <div className="h_mail">
                   <div className="pc">
-                    <Link to="/toiawase/" className="bt01">
+                    <Link to="/toiawase/" className="bt01" title="無料見積り">
                       オンライン無料見積もり
                       <FontAwesomeIcon icon={faCircleChevronRight} />
                     </Link>

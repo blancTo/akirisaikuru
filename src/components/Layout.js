@@ -15,6 +15,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronUp } from "@fortawesome/free-solid-svg-icons";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 
+import { StaticImage } from "gatsby-plugin-image";
+
 const Layout = ({ children }) => {
   const data = useStaticQuery(
     graphql`
@@ -58,7 +60,7 @@ const Layout = ({ children }) => {
                   </p>
                   <div>
                     <a href="tel:0120-28-3374">
-                      <img
+                      <StaticImage
                         src="../images/free_dial_bt_s.png"
                         width={765}
                         height={200}

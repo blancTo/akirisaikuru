@@ -1755,6 +1755,16 @@ footer {
   }
 }
 
+.mtb20 {
+  margin: 20px 0;
+}
+
 .mb40 {
   margin-bottom: 40px;
+}
+
+.gatsby-image-wrapper {
+  div {
+    background-color: transparent !important;
+  }
 }

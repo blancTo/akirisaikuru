@@ -1,4 +1,5 @@
 import React from "react";
+import { StaticImage } from "gatsby-plugin-image";
 import { Link } from "gatsby";
 
 const Footer = () => {
@@ -12,7 +13,7 @@ const Footer = () => {
             </p>
             <div>
               <Link to="/">
-                <img
+                <StaticImage
                   src="../images/logo.png"
                   alt="安芸リサイクル"
                   width={265}
