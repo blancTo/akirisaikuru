@@ -86,7 +86,7 @@ export default function Mainimage() {
       <div id="mainimage">
         <div id="mainimage-inner">
           <div className="pc">
-            <img
+            <StaticImage
               src="../images/txt01.png"
               width={1142}
               height={80}
@@ -94,7 +94,7 @@ export default function Mainimage() {
             />
 
             <h2 className="center">
-              <img
+              <StaticImage
                 src="../images/top_medal.png"
                 width={1000}
                 height={270}
@@ -102,7 +102,7 @@ export default function Mainimage() {
               />
             </h2>
             <div className="center mtb20">
-              <img
+              <StaticImage
                 src="../images/txt02.png"
                 width={332}
                 height={42}
@@ -110,21 +110,25 @@ export default function Mainimage() {
               />
             </div>
             <h2 className="center">
-              <img
+              <StaticImage
                 src="../images/txt03.png"
                 width={716}
                 height={42}
                 alt="不用品回収なら当日予約OKの安芸リサイクルにお任せください！"
               />
             </h2>
-            <img
+            <StaticImage
               src="../images/txt04.png"
+              width={1000}
+              height={410}
               alt="片付け整理人 他社だと必ず発生する基本料金や出張費用が0円"
             />
           </div>
           <div className="smp">
-            <img
+            <StaticImage
               src="../images/mainimage_smp.jpg"
+              width={389}
+              height={389}
               alt="片付け整理人 他社だと必ず発生する基本料金や出張費用が0円"
             />
           </div>
