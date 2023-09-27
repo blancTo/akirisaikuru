@@ -443,12 +443,10 @@ const toiawase = () => {
             </tbody>
           </table>
 
-          <div className="recap_box">
-            <div
-              className="g-recaptcha"
-              data-sitekey="6LcDKlUoAAAAAFN19B2RbWlUKvPWd_oaeL5B0Pc_"
-            />
-          </div>
+          <div
+            className="g-recaptcha"
+            data-sitekey="6LcDKlUoAAAAAFN19B2RbWlUKvPWd_oaeL5B0Pc_"
+          />
 
           <p className="center mb40">
             <button type="submit" className="bt_form">
