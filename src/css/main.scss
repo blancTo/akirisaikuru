@@ -800,7 +800,9 @@ footer {
       border-radius: 10px;
       color: #fff;
       font-weight: 900;
-      min-height: 540px;
+      @media screen and (min-width: 1025px) {
+        min-height: 540px;
+      }
     }
   }
 }
@@ -1037,7 +1039,7 @@ footer {
     span {
       display: inline-block;
       padding: 2px 8px;
-      background-color: #0295da;
+      background-color: #027cb6;
       border-radius: 5px;
       color: #fff;
       font-weight: 500;
@@ -1197,8 +1199,6 @@ footer {
     align-items: center;
     @media screen and (max-width: 768px) {
       width: 100%;
-    }
-    img {
       @media screen and (max-width: 768px) {
         transform: rotate(90deg);
       }
@@ -1462,7 +1462,6 @@ footer {
   @media screen and (min-width: 1367px) {
     font-size: 330%;
   }
-
   border-radius: 20px;
   background: #00599e;
   color: #fff;
@@ -1474,17 +1473,21 @@ footer {
   position: relative;
   z-index: 0;
   box-shadow: 0 5px 0 #014e89, 0px 0px 2px 1px rgba(0, 0, 0, 0.1) inset;
-  @media screen and (max-width: 768px) {
-    font-size: 120%;
-    padding: 1% 40px 1% 70px;
-    text-align: left;
-  }
   @media screen and (min-width: 769px) {
     font-size: 250%;
   }
+  @media screen and (max-width: 768px) {
+    font-size: 200%;
+    padding: 1% 40px 1% 110px;
+    text-align: left;
+  }
+
   @media (orientation: landscape) and (max-width: 667px) {
     font-size: 160%;
     text-align: center;
+  }
+  @media screen and (max-width: 667px) {
+    font-size: 140%;
   }
   &:before {
     @media screen and (min-width: 1367px) {
@@ -1693,8 +1696,10 @@ footer {
   }
 }
 
-.pt47 {
-  padding-top: 47px;
+@media screen and (min-width: 1025px) {
+  .pt47 {
+    padding-top: 47px;
+  }
 }
 .gmap {
   width: 100%;
