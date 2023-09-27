@@ -226,6 +226,7 @@ export default function Home() {
                         <StaticImage
                           src="../images/jirei_before01.jpg"
                           alt="Before画像"
+                          className="img_cen"
                         />
 
                         <p className="orange b_900 txt140p">● 回収品</p>
@@ -247,6 +248,7 @@ export default function Home() {
                         <StaticImage
                           src="../images/jirei_after01.jpg"
                           alt="After画像"
+                          className="img_cen"
                         />
 
                         <p className="orange b_900 txt140p">● 回収料金</p>

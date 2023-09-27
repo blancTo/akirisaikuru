@@ -43,6 +43,7 @@ export default function TopVoice() {
           <StaticImage
             src="../images/voice_ilust01.png"
             alt="お客様の声イメージ"
+            className="img_cen"
           />
 
           <p className="voice_title01">ご利用サービス</p>

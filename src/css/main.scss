@@ -782,6 +782,12 @@ footer {
   }
 }
 
+.img_cen {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
 .plan_cont {
   display: flex;
   flex-wrap: wrap;
@@ -796,7 +802,7 @@ footer {
     }
     .plan_box_inner {
       background-color: #00599e;
-      padding: 10px;
+      padding: 20px;
       border-radius: 10px;
       color: #fff;
       font-weight: 900;

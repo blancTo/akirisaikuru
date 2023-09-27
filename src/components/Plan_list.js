@@ -16,7 +16,13 @@ const PlanList = () => {
               alt="軽トラック ハーフプラン"
             />
             <p>1点の不用品から！</p>
-            <StaticImage src="../images/plan_img01.png" alt="" />
+            <StaticImage
+              src="../images/plan_img01.png"
+              width={400}
+              height={367}
+              alt=""
+              className="img_cen"
+            />
           </div>
           <p className="center">
             <Link to="/price/#half" className="bt02">
@@ -35,7 +41,13 @@ const PlanList = () => {
             <p>
               金額の目安は「軽トラック」荷台にいっぱいでの金額です。荷台に半分の場合は金額も半分となります。
             </p>
-            <StaticImage src="../images/plan_img02.png" alt="" />
+            <StaticImage
+              src="../images/plan_img02.png"
+              width={400}
+              height={367}
+              className="img_cen"
+              alt=""
+            />
           </div>
           <p className="center">
             <Link to="/price/#kei" className="bt02">
@@ -54,7 +66,13 @@ const PlanList = () => {
             <p>
               金額の目安は「軽トラック幌車」荷台にいっぱいでの金額です。荷台に半分の場合は金額も半分となります。
             </p>
-            <StaticImage src="../images/plan_img03.png" alt="" />
+            <StaticImage
+              src="../images/plan_img03.png"
+              width={400}
+              height={367}
+              className="img_cen"
+              alt=""
+            />
           </div>
           <p className="center">
             <Link to="/price/#kei-horo" className="bt02">
@@ -73,7 +91,13 @@ const PlanList = () => {
             <p>
               金額の目安は「2ｔトラック」荷台にいっぱいでの金額です。荷台に半分の場合は金額も半分となります。
             </p>
-            <StaticImage src="../images/plan_img04.png" alt="" />
+            <StaticImage
+              src="../images/plan_img04.png"
+              width={400}
+              height={367}
+              className="img_cen"
+              alt=""
+            />
           </div>
           <p className="center">
             <Link to="/price/#trak2t" className="bt02">
@@ -92,7 +116,13 @@ const PlanList = () => {
             <p>
               家電他家具等ゴミ一緒に回収します２ＤＫ～２ＬＤＫ程度のお部屋のお片付けにオススメの定額！Ｌパックプランです。
             </p>
-            <StaticImage src="../images/plan_img05.png" alt="" />
+            <StaticImage
+              src="../images/plan_img05.png"
+              width={400}
+              height={367}
+              className="img_cen"
+              alt=""
+            />
           </div>
           <p className="center">
             <Link to="/price/#trak2tl" className="bt02">
