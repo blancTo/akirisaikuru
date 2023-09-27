@@ -223,12 +223,11 @@ export default function Home() {
                     <div className="top_flow_box">
                       <h4 className="before_title">Before</h4>
                       <div className="top_flow_inner">
-                        <div className="center">
-                          <StaticImage
-                            src="../images/jirei_before01.jpg"
-                            alt="Before画像"
-                          />
-                        </div>
+                        <StaticImage
+                          src="../images/jirei_before01.jpg"
+                          alt="Before画像"
+                        />
+
                         <p className="orange b_900 txt140p">● 回収品</p>
                         <p>
                           ・洗濯機・冷蔵庫・机・いす・デスクトップパソコン・ちゃぶ台方机・その他細々したもの
@@ -236,19 +235,20 @@ export default function Home() {
                       </div>
                     </div>
 
-                    <div className="top_flow_arrow">
-                      <StaticImage src="../images/arrow_03.png" alt="" />
-                    </div>
+                    <StaticImage
+                      src="../images/arrow_03.png"
+                      alt=""
+                      className="top_flow_arrow"
+                    />
 
                     <div className="top_flow_box">
                       <h4 className="after_title">After</h4>
                       <div className="top_flow_inner">
-                        <div className="center">
-                          <StaticImage
-                            src="../images/jirei_after01.jpg"
-                            alt="After画像"
-                          />
-                        </div>
+                        <StaticImage
+                          src="../images/jirei_after01.jpg"
+                          alt="After画像"
+                        />
+
                         <p className="orange b_900 txt140p">● 回収料金</p>
                         <p className="price">
                           33,000<span className="yen">円(税込)</span>

@@ -45,7 +45,6 @@ const ServiceList = () => {
           <div className="service_box">
             <div className="service_box_naka">
               <StaticImage src="../images/top_pic02.png" alt="" />
-
               <p>
                 ゴミが大量のお部屋もご安心ください！あっという間にキレイにします！
               </p>
@@ -67,7 +66,6 @@ const ServiceList = () => {
           <div className="service_box">
             <div className="service_box_naka">
               <StaticImage src="../images/top_pic03.png" alt="" />
-
               <p>
                 人様の大切な遺品を定年に整理させて頂きます。不用品の処分、清掃もお任せください！
               </p>
@@ -89,7 +87,6 @@ const ServiceList = () => {
           <div className="service_box">
             <div className="service_box_naka">
               <StaticImage src="../images/top_pic04.png" alt="" />
-
               <p>
                 ご家庭やオフィスにある要らなくなったものを即日回収いたします！
               </p>

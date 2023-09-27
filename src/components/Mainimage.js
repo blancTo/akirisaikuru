@@ -92,7 +92,6 @@ export default function Mainimage() {
               height={80}
               alt="各種クレジットカード対応"
             />
-
             <h2 className="center">
               <StaticImage
                 src="../images/top_medal.png"
@@ -124,14 +123,13 @@ export default function Mainimage() {
               alt="片付け整理人 他社だと必ず発生する基本料金や出張費用が0円"
             />
           </div>
-          <div className="smp">
-            <StaticImage
-              src="../images/mainimage_smp.jpg"
-              width={389}
-              height={389}
-              alt="片付け整理人 他社だと必ず発生する基本料金や出張費用が0円"
-            />
-          </div>
+          <StaticImage
+            src="../images/mainimage_smp.jpg"
+            width={389}
+            height={389}
+            alt="片付け整理人 他社だと必ず発生する基本料金や出張費用が0円"
+            className="smp"
+          />
         </div>
       </div>
     </>

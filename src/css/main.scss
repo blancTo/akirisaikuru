@@ -1198,12 +1198,10 @@ footer {
   }
 
   .top_flow_arrow {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
+    width: 30px;
+    height: 56px;
+    margin: auto;
     @media screen and (max-width: 768px) {
-      width: 100%;
       @media screen and (max-width: 768px) {
         transform: rotate(90deg);
       }
@@ -1248,7 +1246,7 @@ footer {
   background-color: #dff3ff;
   border-top: 2px solid #377195;
   padding: 10px;
-  margin-top: 0;
+  margin: 20px 0;
   color: #377195;
   font-weight: bold;
 }

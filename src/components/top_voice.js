@@ -40,35 +40,24 @@ export default function TopVoice() {
         </div>
 
         <div className="voice_l">
-          <div className="center">
-            <StaticImage
-              src="../images/voice_ilust01.png"
-              alt="お客様の声イメージ"
-            />
-          </div>
+          <StaticImage
+            src="../images/voice_ilust01.png"
+            alt="お客様の声イメージ"
+          />
+
           <p className="voice_title01">ご利用サービス</p>
           <p>軽トラック ハーフプラン</p>
-          <div className="center">
-            <StaticImage src="../images/sarvice_01.png" alt="" />
-          </div>
+
+          <StaticImage src="../images/sarvice_01.png" alt="" />
+
           <p className="voice_title01">お客様満足度</p>
-          <ul className="hyoka_list">
-            <li>
-              <StaticImage src="../images/star_01.png" alt="" />
-            </li>
-            <li>
-              <StaticImage src="../images/star_01.png" alt="" />
-            </li>
-            <li>
-              <StaticImage src="../images/star_01.png" alt="" />
-            </li>
-            <li>
-              <StaticImage src="../images/star_01.png" alt="" />
-            </li>
-            <li>
-              <StaticImage src="../images/star_01.png" alt="" />
-            </li>
-          </ul>
+          <div className="hyoka_list">
+            <StaticImage src="../images/star_01.png" alt="" />
+            <StaticImage src="../images/star_01.png" alt="" />
+            <StaticImage src="../images/star_01.png" alt="" />
+            <StaticImage src="../images/star_01.png" alt="" />
+            <StaticImage src="../images/star_01.png" alt="" />
+          </div>
         </div>
       </div>
     </>
