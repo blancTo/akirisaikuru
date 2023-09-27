@@ -442,6 +442,14 @@ const toiawase = () => {
               </tr>
             </tbody>
           </table>
+
+          <div className="recap_box">
+            <div
+              className="g-recaptcha"
+              data-sitekey="6LcDKlUoAAAAAFN19B2RbWlUKvPWd_oaeL5B0Pc_"
+            />
+          </div>
+
           <p className="center mb40">
             <button type="submit" className="bt_form">
               送信する
@@ -538,6 +546,7 @@ export const Head = () => (
       description="お問い合わせ｜広島・東広島の不用品回収・買取・引越しゴミ・家財整理・ゴミ屋敷・遺品整理 安芸リサイクル"
     />
     <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   </>
 );
 
