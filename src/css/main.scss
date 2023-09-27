@@ -142,7 +142,7 @@ p {
 }
 
 .center {
-  text-align: center;
+  text-align: center !important;
   img {
     margin: 0 auto;
   }
@@ -824,6 +824,14 @@ footer {
     padding-bottom: 10px;
     font-size: 120%;
   }
+
+  .gatsby-image-wrapper {
+    @media screen and (min-width: 1025px) {
+      display: flex;
+      width: 680px;
+      margin: 0 auto;
+    }
+  }
 }
 
 .promise_box {
@@ -843,55 +851,52 @@ footer {
 .service {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 10px;
   .service_cont {
-    width: calc(100% / 4);
+    width: 24%;
+    margin: 5px 0;
+    border: solid 5px #fc9b18;
+    border-radius: 10px;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     @media screen and (max-width: 768px) {
-      width: calc(100% / 2);
+      width: 49%;
     }
-    .service_inner {
-      margin: 0 10px;
-      border: solid 5px #fc9b18;
-      border-radius: 10px;
+    .service_h {
+      border-radius: 5px 5px 0 0;
+      background: linear-gradient(
+        360deg,
+        rgba(254, 223, 12, 1),
+        rgba(254, 182, 0, 1)
+      );
+      font-family: "Noto Sans JP", sans-serif;
+      font-size: 180%;
+      font-weight: 900;
+      line-height: 1.2;
+      padding: 3%;
+      text-align: center;
       display: flex;
       flex-wrap: wrap;
-      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       @media screen and (max-width: 768px) {
-        margin: 5px;
+        font-size: 120%;
       }
-      .service_h {
-        border-radius: 5px 5px 0 0;
-        background: linear-gradient(
-          360deg,
-          rgba(254, 223, 12, 1),
-          rgba(254, 182, 0, 1)
-        );
-        font-family: "Noto Sans JP", sans-serif;
-        font-size: 180%;
-        font-weight: 900;
-        line-height: 1.2;
-        padding: 3%;
+      @media screen and (min-width: 769px) and (max-width: 1024px) {
+        font-size: 140%;
+      }
+    }
+    .service_box {
+      .service_box_naka {
+        background-color: #fff;
+        border-radius: 0 0 5px 5px;
+        padding: 15px;
         text-align: center;
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        align-items: center;
-        @media screen and (max-width: 768px) {
-          font-size: 120%;
-        }
-        @media screen and (min-width: 769px) and (max-width: 1024px) {
-          font-size: 140%;
-        }
-      }
-      .service_box {
-        .service_box_naka {
-          background-color: #fff;
-          border-radius: 0 0 5px 5px;
-          margin: 0 3px 0px 3px;
-          padding: 5px;
-          p {
-            margin: 10px 0;
-          }
+        p {
+          margin: 10px 0;
+          text-align: left;
         }
       }
     }

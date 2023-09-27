@@ -118,18 +118,18 @@ export default function Home() {
                 <p>
                   冷蔵庫、洗濯機、テレビ、エアコン、窓用エアコン、パソコン、ノートパソコン、ドラム式洗濯乾燥機、食器棚、ソファー、洋服タンス、整理タンス、シングルベッド、マットレス、学習机、ダイニングテーブル、ガラステーブル、ＴＶ台、布団、毛布、電子レンジ、トースター、電気ポット、炊飯器、掃除機、医療乾燥機、ふとん乾燥機、アイロン、草刈機、ホットカーペット、コタツ、ストーブ、オイルヒーター、ファンヒーター、電気ストーブ、扇風機、空気清浄機、除湿機、加湿器、換気扇、冷風機、キーボード、ウォーターベッド、座椅子、ジュータンその他
                 </p>
-                <div className="pc center">
-                  <StaticImage
-                    src="../images/itiran_img.png"
-                    alt="回収品一覧イメージ"
-                  />
-                </div>
-                <div className="smp center">
-                  <StaticImage
-                    src="../images/itiran_img_smp.png"
-                    alt="回収品一覧イメージ"
-                  />
-                </div>
+
+                <StaticImage
+                  src="../images/itiran_img.png"
+                  alt="回収品一覧イメージ"
+                  className="pc"
+                />
+
+                <StaticImage
+                  src="../images/itiran_img_smp.png"
+                  alt="回収品一覧イメージ"
+                  className="smp"
+                />
               </div>
 
               <TelList />
