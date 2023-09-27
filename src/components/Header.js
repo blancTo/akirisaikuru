@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "gatsby";
-import { StaticImage } from "gatsby-plugin-image";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleChevronRight } from "@fortawesome/free-solid-svg-icons";
 
@@ -16,7 +16,7 @@ const Header = () => {
               </h1>
               <div className="h_logo">
                 <Link to="/">
-                  <StaticImage src="../images/logo.png" alt="安芸リサイクル" />
+                  <img src="../images/logo.png" alt="安芸リサイクル" />
                 </Link>
               </div>
               <div className="h_tool">

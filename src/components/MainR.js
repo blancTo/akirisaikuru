@@ -2,7 +2,6 @@ import React from "react";
 import { Link } from "gatsby";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleChevronRight } from "@fortawesome/free-solid-svg-icons";
-import { StaticImage } from "gatsby-plugin-image";
 
 const MainR = () => {
   return (
@@ -46,46 +45,37 @@ const MainR = () => {
         </div>
         <div className="side_bn">
           <Link to="/voice/">
-            <StaticImage src="../images/side/side01.png" alt="お客様の声" />
+            <img src="../images/side/side01.png" alt="お客様の声" />
           </Link>
         </div>
         <div className="side_bn">
           <Link to="/area/">
-            <StaticImage src="../images/side/side02.png" alt="対応エリア" />
+            <img src="../images/side/side02.png" alt="対応エリア" />
           </Link>
         </div>
         <div className="side_bn">
           <Link to="/faq/">
-            <StaticImage src="../images/side/side03.png" alt="よくあるご質問" />
+            <img src="../images/side/side03.png" alt="よくあるご質問" />
           </Link>
         </div>
         <div className="side_bn">
           <Link to="/flow/">
-            <StaticImage
-              src="../images/side/side04.png"
-              alt="ご利用までの流れ"
-            />
+            <img src="../images/side/side04.png" alt="ご利用までの流れ" />
           </Link>
         </div>
         <div className="side_bn">
           <Link to="/blog/">
-            <StaticImage
-              src="../images/side/side05.png"
-              alt="安芸リサイクルブログ"
-            />
+            <img src="../images/side/side05.png" alt="安芸リサイクルブログ" />
           </Link>
         </div>
         <div className="side_bn">
-          <StaticImage src="../images/side/rakuten_01.png" alt="" />
+          <img src="../images/side/rakuten_01.png" alt="" />
         </div>
         <div className="side_bn">
-          <StaticImage
-            src="../images/side/ihin_seirisi_bn_2.png"
-            alt="遺品整理士"
-          />
+          <img src="../images/side/ihin_seirisi_bn_2.png" alt="遺品整理士" />
         </div>
         <div className="side_bn">
-          <StaticImage
+          <img
             src="../images/side/tokusyu_seisou_bn.png"
             alt="当事業所には事件現場特殊清掃士の有資格者がいます。"
           />
@@ -96,14 +86,11 @@ const MainR = () => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <StaticImage
-              src="../images/side/side_04.jpg"
-              alt="遺品整理士認定協会"
-            />
+            <img src="../images/side/side_04.jpg" alt="遺品整理士認定協会" />
           </a>
         </div>
         <div className="side_bn">
-          <StaticImage src="../images/side/side_pic01.jpg" alt="" />
+          <img src="../images/side/side_pic01.jpg" alt="" />
         </div>
         <p className="center">
           遺品整理管理基準適合会員
