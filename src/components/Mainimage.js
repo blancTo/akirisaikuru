@@ -85,44 +85,47 @@ export default function Mainimage() {
       </ul>
       <div id="mainimage">
         <div id="mainimage-inner">
-          <div className="pc">
+          <StaticImage
+            src="../images/txt01.png"
+            width={1142}
+            height={80}
+            alt="各種クレジットカード対応"
+            className="tub_over"
+          />
+
+          <StaticImage
+            src="../images/top_medal.png"
+            width={1000}
+            height={270}
+            alt="お客様満足度97％　安心と実績の20年　女性スタッフ同行可能。"
+            className="pc"
+          />
+
+          <StaticImage
+            src="../images/txt02.png"
+            width={332}
+            height={42}
+            alt="詳しくはお問合せください"
+            className="mtb20 pc"
+          />
+
+          <h2 className="center pc">
             <StaticImage
-              src="../images/txt01.png"
-              width={1142}
-              height={80}
-              alt="各種クレジットカード対応"
+              src="../images/txt03.png"
+              width={716}
+              height={42}
+              alt="不用品回収なら当日予約OKの安芸リサイクルにお任せください！"
             />
-            <h2 className="center">
-              <StaticImage
-                src="../images/top_medal.png"
-                width={1000}
-                height={270}
-                alt="お客様満足度97％　安心と実績の20年　女性スタッフ同行可能。"
-              />
-            </h2>
-            <div className="center mtb20">
-              <StaticImage
-                src="../images/txt02.png"
-                width={332}
-                height={42}
-                alt="詳しくはお問合せください"
-              />
-            </div>
-            <h2 className="center">
-              <StaticImage
-                src="../images/txt03.png"
-                width={716}
-                height={42}
-                alt="不用品回収なら当日予約OKの安芸リサイクルにお任せください！"
-              />
-            </h2>
-            <StaticImage
-              src="../images/txt04.png"
-              width={1000}
-              height={410}
-              alt="片付け整理人 他社だと必ず発生する基本料金や出張費用が0円"
-            />
-          </div>
+          </h2>
+
+          <StaticImage
+            src="../images/txt04.png"
+            width={1000}
+            height={410}
+            alt="片付け整理人 他社だと必ず発生する基本料金や出張費用が0円"
+            className="tub_over"
+          />
+
           <StaticImage
             src="../images/mainimage_smp.jpg"
             width={389}

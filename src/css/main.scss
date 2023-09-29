@@ -148,14 +148,29 @@ p {
   }
 }
 
-.pc {
-  @media screen and (max-width: 768px) {
+/* 1024px 未満は非表示 */
+@media not screen and (min-width: 1024px) {
+  .pc {
+    display: none !important;
+  }
+}
+/*768未満は非表示*/
+@media not screen and (min-width: 768px) {
+  .tub_over {
     display: none !important;
   }
 }
 
-.smp {
-  @media print, screen and (min-width: 769px) {
+/*769以上は非表示*/
+@media screen and (min-width: 769px) {
+  .tub {
+    display: none !important;
+  }
+}
+
+/*481以上は非表示*/
+@media screen and (min-width: 668px) {
+  .smp {
     display: none !important;
   }
 }
@@ -659,22 +674,18 @@ footer {
   );
   margin: 20px 0;
 
-  @media screen and (max-width: 768px) {
-    margin: 91px 0 0 0;
+  @media not screen and (min-width: 769px) {
+    margin: 78px 0 0 0;
   }
-  @media screen and (max-width: 667px) {
+  @media not screen and (min-width: 668px) {
     margin: 85px 0 0 0;
   }
-  @media screen and (max-width: 480px) {
+  @media not screen and (min-width: 481px) {
     margin: 67px 0 0 0;
   }
   #mainimage-inner {
     width: 60%;
     margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    flex-direction: column;
     text-align: center;
     padding: 20px 0;
 
@@ -744,6 +755,13 @@ footer {
     }
   }
 }
+
+#subpage {
+  @media not screen and (min-width: 769px) {
+    margin-top: 79px !important;
+  }
+}
+
 .pack_title {
   font-family: "Noto Sans JP", sans-serif;
   font-weight: 900;
@@ -808,6 +826,9 @@ footer {
       font-weight: 900;
       @media screen and (min-width: 1025px) {
         min-height: 540px;
+      }
+      @media not screen and (min-width: 668px) {
+        min-height: 445px;
       }
     }
   }
@@ -1153,6 +1174,7 @@ footer {
   padding-right: 3%;
   @media screen and (max-width: 768px) {
     width: 100%;
+    padding-right: 0;
   }
   @media (orientation: landscape) and (max-width: 667px) {
     width: 60%;
@@ -1588,6 +1610,9 @@ footer {
   background-image: url("/images/chara_01.png");
   background-position: center right;
   background-repeat: no-repeat;
+  @media not screen and (min-width: 1024px) {
+    font-size: 160%;
+  }
 }
 
 .sub_title {
@@ -1726,6 +1751,15 @@ footer {
   margin: 30px 0;
   img {
     margin: 0 auto;
+    @media screen and (min-width: 1024px) {
+      height: 600px;
+      object-fit: cover;
+    }
+    @media not screen and (min-width: 1024px) {
+      width: 100%;
+      height: 400px;
+      object-fit: contain;
+    }
   }
 }
 
@@ -1736,10 +1770,24 @@ footer {
   padding: 20px 0;
   .column_img {
     width: 40%;
+    @media not screen and (min-width: 767px) {
+      width: 100%;
+    }
+    img {
+      width: 100%;
+      height: 165px;
+      object-fit: cover;
+    }
   }
   .column_txt {
-    padding-left: 30px;
     width: 60%;
+    @media not screen and (min-width: 767px) {
+      width: 100%;
+      margin-top: 20px;
+    }
+    @media screen and (min-width: 769px) {
+      padding-left: 30px;
+    }
     time {
       font-size: 14px;
       display: block;
