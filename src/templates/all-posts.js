@@ -118,7 +118,7 @@ function stripHTML(html) {
 
 export const query = graphql`
   query ($limit: Int, $skip: Int) {
-    allMicrocmsPosts(limit: $limit, skip: $skip) {
+    allMicrocmsPosts(limit: $limit, skip: $skip, sort: { date: DESC }) {
       edges {
         node {
           postsId
