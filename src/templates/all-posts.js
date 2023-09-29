@@ -118,12 +118,10 @@ function stripHTML(html) {
 }
 
 export const Head = ({ data }) => {
-  const pageTitle = data.allMicrocmsPosts.edges[0].node.category.name; // ページのタイトルを取得
-
   return (
     <>
       <body id="pagetop" />
-      <Seo title2={pageTitle} />
+      <Seo title="ブログ記事一覧" />
     </>
   );
 };
