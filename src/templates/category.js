@@ -115,7 +115,7 @@ const CategoryPage = ({ data, pageContext }) => {
             })}
 
             {currentPage < numPages && (
-              <Link to={`/${category.categoryId}/${currentPage + 1}`}>
+              <Link to={`/category/${category.categoryId}/${currentPage + 1}`}>
                 次へ &gt;&gt;
               </Link>
             )}
@@ -163,6 +163,7 @@ export const Head = ({ data }) => {
 
   return (
     <>
+      <body id="pagetop" />
       <Seo title2={pageTitle} />
     </>
   );

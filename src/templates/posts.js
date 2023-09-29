@@ -84,6 +84,7 @@ const PostPage = ({ data }) => {
 
 export const Head = ({ data }) => (
   <>
+    <body id="pagetop" />
     <Seo title2={data.microcmsPosts.title} />
   </>
 );

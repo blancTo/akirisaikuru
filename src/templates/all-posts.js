@@ -1,5 +1,6 @@
 import React from "react";
 import { graphql, Link } from "gatsby";
+import Seo from "../components/Seo";
 import Layout from "../components/Layout";
 import BreadCrumb from "../components/BreadCrumb";
 import dayjs from "dayjs";
@@ -115,6 +116,17 @@ const AllPosts = ({ data, pageContext }) => {
 function stripHTML(html) {
   return html.replace(/<[^>]*>/g, "");
 }
+
+export const Head = ({ data }) => {
+  const pageTitle = data.allMicrocmsPosts.edges[0].node.category.name; // ページのタイトルを取得
+
+  return (
+    <>
+      <body id="pagetop" />
+      <Seo title2={pageTitle} />
+    </>
+  );
+};
 
 export const query = graphql`
   query ($limit: Int, $skip: Int) {
