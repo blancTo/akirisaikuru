@@ -19,8 +19,8 @@ module.exports = {
       "広島,東広島,不用品回収,リサイクル家電買取,廃品回収,お片付け,遺品整理",
     description: `広島の不用品回収・引越しゴミ・お片付け・粗大ゴミ・お家丸ごと・遺品整理・秘密厳守・明朗会計・安心の定額パック・追加料金なし・買取から処分まで・年中無休・損害保険対応・クレジットカード対応・見積無料・遠方地域対応`,
     image: `/images/mobile_img.jpg`,
-    url: `https://aki-risaikuru.com/`,
-    siteUrl: `https://aki-risaikuru.com/`,
+    url: `https://aki-risaikuru.com`,
+    siteUrl: `https://aki-risaikuru.com`,
   },
   plugins: [
     `gatsby-plugin-image`,
@@ -45,7 +45,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://aki-risaikuru.com/`,
+        siteUrl: `https://aki-risaikuru.com`,
       },
     },
 
@@ -61,16 +61,34 @@ module.exports = {
         offset: -100,
       },
     },
-
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        entryLimit: 50000,
+        resolveSiteUrl: () => 'https://aki-risaikuru.com',
+      },
+    },
     {
       resolve: `gatsby-plugin-robots-txt`,
       options: {
         host: `https://aki-risaikuru.com`,
-        sitemap: `https://aki-risaikuru.com/sitemap-0.xml`,
+        sitemap: `https://aki-risaikuru.com/sitemap-index.xml`,
         policy: [{ userAgent: `*`, allow: `/` }],
       },
     },
-    `gatsby-plugin-sitemap`,
+    {
+      resolve: "gatsby-plugin-htaccess",
+      options: {
+        RewriteBase: "/",
+        https: true,
+        www: false,
+        SymLinksIfOwnerMatch: true,
+        host: "aki-risaikuru.com", // if 'www' is set to 'false', be sure to also remove it here!
+        ErrorDocument: `          
+          ErrorDocument 404 /error_pages/404.html
+        `,
+      },
+    },
     `gatsby-plugin-sass`,
 
     {
