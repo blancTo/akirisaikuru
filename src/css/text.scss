@@ -9,20 +9,24 @@
 }
 
 .noto_san {
-  font-family: "Noto Sans JP", sans-serif;
+  font-family: 'Noto Sans JP', sans-serif;
 }
 .lato {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 .mplus {
-  font-family: "M PLUS 2", sans-serif;
+  font-family: 'M PLUS 2', sans-serif;
 }
 .murecho {
-  font-family: "Murecho", sans-serif;
+  font-family: 'Murecho', sans-serif;
 }
 .txt140p {
   font-size: 140%;
 }
 .txt250p {
   font-size: 250%;
+}
+
+.marker {
+  background: linear-gradient(transparent 70%, #fff100 70%);
 }
