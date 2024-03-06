@@ -40,7 +40,7 @@ export default function sitemap() {
             </ul>
           </li>
           <li>
-            <Link to='/moving/'>単身引っ越し</Link>
+            <Link to='/moving/'>引越しサ―ビス</Link>
           </li>
           <li>
             <Link to='/cleanup/'>家財・片付け専門</Link>

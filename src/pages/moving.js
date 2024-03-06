@@ -4,7 +4,7 @@ import BreadCrumb from '../components/BreadCrumb';
 import Layout from '../components/Layout';
 
 const pagemeta = {
-  subTitle: `単身引っ越し`,
+  subTitle: `引越しサ―ビス`,
   slug: `moving`,
 };
 
@@ -14,7 +14,7 @@ const moving = () => {
       <Layout>
         <BreadCrumb title={pagemeta.subTitle} slug={pagemeta.slug} />
 
-        <h3 className='main_title'>単身引っ越し</h3>
+        <h3 className='main_title'>{pagemeta.subTitle}</h3>
 
         <p className='title_box_red'>
           <span>不用品回収とあわせた引越しを</span>
